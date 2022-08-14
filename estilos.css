@@ -1,9 +1,67 @@
-body{
-    background-image: url("https://img.freepik.com/fotos-premium/fondo-abstracto-viajando-traves-campos-estelares-espacio-supernova-lightmotion-creacion-grafica-ver-galaxyfantasy-deep-dark-nebulaoscuridad-mistica-espacio-exteriorciencia-movimiento-cielo-ilustracion_599740-1458.jpg");
+body {
+    background: rgb(102,117,96);
+background: linear-gradient(124deg, rgba(102,117,96,1) 0%, rgba(255,255,255,1) 70%);
 }
 
-h1{color:red;size:300px;height:70px;align-items:center;display:flex;justify-content:center;}
+* {
+    border-width:4px;
+    border-style:dasdhed;
+    border-color: #ff00aa;
+}
 
-p {color: azure;}
+.imgRedonda {
+    width:120px;
+    height:120px;
+    border-radius:70px;
+    border:3px solid rgb(0, 0, 0);
+    position: relative;
+    top: 17em;
+    left: 10em;
+}
 
-p2 {color: azure;}
+.Introduccion {
+    background-color: #0c5ace31;
+    height: 800px;
+    width: 1300px;
+    border: 4px;
+    margin: 0 auto;
+    position: relative;
+    top: 5em;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 4%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+.letras {
+    position: relative;
+    top: 5em;
+    left: 3em;
+}
+
+.redess {
+    height: 100px;
+    width: 100px;
+    border-width:4px;
+    border-style:dashed;
+    border-color: #ff00aa;
+    position: relative;
+    top: -65em;
+    
+}
+
+.link {
+    border: #bc1888;
+    font-weight: 300px;
+}
+
+
+h1 {
+    height: 150px;
+    font-size: 70px;
+    font-family: fantasy;
+    box-shadow: #bc1888;
+    background-color: #f09433;
+    border: 2px solid rgb(0, 0, 0);
+}
