@@ -1,6 +1,6 @@
 body {
-    background: rgb(102,117,96);
-background: linear-gradient(124deg, rgba(102,117,96,1) 0%, rgba(255,255,255,1) 70%);
+    background-image: url(/imagenes/Universo.jpg);
+    
 }
 
 * {
@@ -20,7 +20,7 @@ background: linear-gradient(124deg, rgba(102,117,96,1) 0%, rgba(255,255,255,1) 7
 }
 
 .Introduccion {
-    background-color: #0c5ace31;
+    background-color: #ffffff98;
     height: 800px;
     width: 1300px;
     border: 4px;
@@ -43,9 +43,6 @@ background: linear-gradient(124deg, rgba(102,117,96,1) 0%, rgba(255,255,255,1) 7
 .redess {
     height: 100px;
     width: 100px;
-    border-width:4px;
-    border-style:dashed;
-    border-color: #ff00aa;
     position: relative;
     top: -65em;
     
@@ -56,12 +53,17 @@ background: linear-gradient(124deg, rgba(102,117,96,1) 0%, rgba(255,255,255,1) 7
     font-weight: 300px;
 }
 
+.titulo {
+    background-color: #f09433;
+    border: 2px solid rgb(0, 0, 0);
+}
 
 h1 {
     height: 150px;
     font-size: 70px;
     font-family: fantasy;
     box-shadow: #bc1888;
-    background-color: #f09433;
-    border: 2px solid rgb(0, 0, 0);
+    position: relative;
+    top: 1.2em;
+    left: 17em;
 }
