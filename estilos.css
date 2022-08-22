@@ -5,30 +5,26 @@ body {
 
 * {
     border-width:4px;
-    border-style:dasdhed;
+    border-style:dashded;
     border-color: #ff00aa;
 }
 
-.imgRedonda {
-    width:120px;
-    height:120px;
-    border-radius:70px;
-    border:3px solid rgb(0, 0, 0);
+.card {
     position: relative;
-    top: 17em;
-    left: 10em;
+    top: 20em;
+    left: 0.7em;
 }
 
+
 .Introduccion {
-    background-color: #ffffff98;
+    background-color: #ffffffd3;
     height: 800px;
     width: 1300px;
     border: 4px;
     margin: 0 auto;
     position: relative;
-    top: 5em;
+    top: -9em;
     font-size: 22px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 4%;
     border: 2px solid rgb(0, 0, 0);
 }
@@ -41,10 +37,11 @@ body {
 }
 
 .redess {
-    height: 100px;
-    width: 100px;
     position: relative;
-    top: -65em;
+    top: -40em;
+    left: 15em;
+    height: -5px;
+    width: 20px;
     
 }
 
@@ -54,16 +51,11 @@ body {
 }
 
 .titulo {
-    background-color: #f09433;
-    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(248, 249, 250);
 }
 
-h1 {
-    height: 150px;
-    font-size: 70px;
-    font-family: fantasy;
-    box-shadow: #bc1888;
+
+.navbar {
     position: relative;
-    top: 1.2em;
-    left: 17em;
+    top: -77em;
 }
